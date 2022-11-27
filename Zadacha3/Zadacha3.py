@@ -14,4 +14,4 @@ n = get_input()
 lst = [(lambda i: (1+1/i)**i)(i) for i in range(1, n+1)]
 print(lst)
 res = sum(lst)
-print(res)
+print(f'сумма элементов последовательности {res}')
